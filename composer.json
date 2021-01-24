@@ -1,0 +1,22 @@
+{
+  "name": "openwebx/openconfig",
+  "description": "simple wrapper for hassankhan/config used in nearly all of my projects",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Jens Reinemuth",
+      "email": "jens@reinemuth.rocks"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "openWebX\\openConfig\\": "src/" }
+  },
+  "require": {
+    "php": ">=8.0.0",
+    "hassankhan/config": "^2.2",
+    "symfony/yaml": "^5.2",
+    "vlucas/phpdotenv": "^5.3"
+  }
+}
